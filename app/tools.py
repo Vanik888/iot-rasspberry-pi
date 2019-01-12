@@ -9,7 +9,7 @@ except (ImportError, RuntimeError):
 
 
 def init_board():
-    OUTPUT_PIN = 23
+    OUTPUT_PIN = 13
     GPIO.setmode(GPIO.BCM)
     mode = GPIO.getmode()
     print(mode)
